@@ -7,3 +7,6 @@ A Windows tool that receives packets from an UDP or TCP sender.
 * Listen to TCP messages.
 * Shows sender IP address.
 * Saves the port settings between sessions.
+
+## GUI
+![Packet Receiver graphical interface!](/assets/PR_Image.png "Packet Receiver")
