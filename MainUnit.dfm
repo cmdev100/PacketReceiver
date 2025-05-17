@@ -40,7 +40,7 @@ object MainForm: TMainForm
     Height = 25
     Anchors = [akTop, akRight]
     Caption = 'Start listen'
-    TabOrder = 0
+    TabOrder = 3
     OnClick = btnListenClick
   end
   object edtPort: TEdit
@@ -49,7 +49,7 @@ object MainForm: TMainForm
     Width = 66
     Height = 23
     NumbersOnly = True
-    TabOrder = 1
+    TabOrder = 0
     Text = 'edtPort'
   end
   object btnClear: TButton
@@ -59,7 +59,7 @@ object MainForm: TMainForm
     Height = 18
     Anchors = [akTop, akRight]
     Caption = 'Clear'
-    TabOrder = 2
+    TabOrder = 4
     OnClick = btnClearClick
   end
   object rbUDP: TRadioButton
@@ -68,7 +68,7 @@ object MainForm: TMainForm
     Width = 49
     Height = 17
     Caption = 'UDP'
-    TabOrder = 3
+    TabOrder = 1
     OnClick = ServerTypeClick
   end
   object rbTCP: TRadioButton
@@ -77,7 +77,7 @@ object MainForm: TMainForm
     Width = 49
     Height = 17
     Caption = 'TCP'
-    TabOrder = 4
+    TabOrder = 2
     OnClick = ServerTypeClick
   end
   object lvMessages: TListView
